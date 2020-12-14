@@ -11,5 +11,5 @@ g = driver.find_element_by_name("password")
 g.send_keys("") #Yourpasswordhere
 g.submit()
 time.sleep(5)
-input()#Just there, so the script goes on
+input() #Just there, so the script goes on
 time.sleep(10000000)
