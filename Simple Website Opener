@@ -1,0 +1,15 @@
+import time
+from selenium import webdriver
+l = []
+m = []
+driver = webdriver.Firefox()
+driver.maximize_window()
+driver.get("https://github.com/login")
+f = driver.find_element_by_name("login")
+f.send_keys("") #youremailadresshere
+g = driver.find_element_by_name("password")
+g.send_keys("") #Yourpasswordhere
+g.submit()
+time.sleep(5)
+input()#Just there, so the script goes on
+time.sleep(10000000)
